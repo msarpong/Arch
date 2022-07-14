@@ -26,11 +26,6 @@ class SecondFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentSecondBinding.inflate(inflater, container, false)
-
-        binding.helloBtn.setOnClickListener {
-            Toast.makeText(context, R.string.hello_world, Toast.LENGTH_LONG).show()
-        }
-
         initRV()
         return binding.root
     }
