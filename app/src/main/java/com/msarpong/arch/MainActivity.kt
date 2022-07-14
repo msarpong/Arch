@@ -31,7 +31,5 @@ class MainActivity : AppCompatActivity() {
                 commit()
             }
         }
-
-
     }
 }
